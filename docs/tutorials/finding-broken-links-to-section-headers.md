@@ -131,6 +131,7 @@ Explaining regex in depth is outside of the scope of this tutorial, but at a hig
 * We're looking for any number (`*`) of non-whitespace characters (`\S`) and spaces ( ) within square brackets `\[[\S ]*\]`, followed by a markdown path in round brackets (`\(([\S]*.md)\)` or `\(([\S]*.md)#([\S]*)\)`).&#x20;
 * We're using `\` to escape the square bracket and round bracket characters.
 * We're using round brackets for capture groups. This is for the information we want to extract when we match the patterns. In `md_link_pattern` we're looking to get the file names called in `SUMMARY.md`, so we're capturing `([\S]*.md)`. In `md_header_link_pattern` we're looking for that too, but we're also capturing the non-whitespace characters that appear after the `#` character in the link `([\S]*)`.
+* I find using a site like [https://regex101.com/](https://regex101.com/) is helpful when crafting a regex.&#x20;
 
 #### Get markdown page paths
 
