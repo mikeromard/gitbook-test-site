@@ -3,6 +3,10 @@ description: >-
   This is an example of a python script that lists the display name, email
   address, role, and last seen date for each member in your GitBook
   organization.
+tags:
+  - tag: python
+    primary: true
+  - gitbook
 ---
 
 # Using the GitBook API to list organization members
@@ -22,7 +26,7 @@ When I was administering an organization in GitBook, I found it useful to be abl
 
 ## The script
 
-In this script I'm using the requests module to make a call to GitBook's [List all organization members](https://gitbook.com/docs/developers/gitbook-api/api-reference/organizations/organization-members#get-orgs-organizationid-members) endpoint, and the [os](https://docs.python.org/3.14/library/os.html#module-os) module to call the environment variables I set in the prerequisites.&#x20;
+In this script I'm using the requests module to make a call to GitBook's [List all organization members](https://gitbook.com/docs/developers/gitbook-api/api-reference/organizations/organization-members#get-orgs-organizationid-members) endpoint, and the [os](https://docs.python.org/3.14/library/os.html#module-os) module to call the environment variables I set in the prerequisites.
 
 {% code title="get_members.py" %}
 ```python

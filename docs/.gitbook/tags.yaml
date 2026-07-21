@@ -1,0 +1,6 @@
+- tag: python
+  label: python
+  color: green
+- tag: gitbook
+  label: gitbook
+  color: red
