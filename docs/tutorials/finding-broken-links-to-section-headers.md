@@ -1,8 +1,7 @@
 ---
 description: In this tutorial, we will find some broken links to section headers.
 tags:
-  - tag: python
-    primary: true
+  - python
   - gitbook
 ---
 

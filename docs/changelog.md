@@ -6,6 +6,7 @@
 
 * added [finding-broken-links-to-section-headers.md](tutorials/finding-broken-links-to-section-headers.md "mention")
 * added a Tutorials page group and reorganized existing content
+* started using tags
 {% endupdate %}
 
 {% update date="2026-07-02" tags="python,gitbook" %}

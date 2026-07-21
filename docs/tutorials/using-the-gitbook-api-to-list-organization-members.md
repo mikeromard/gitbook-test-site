@@ -4,8 +4,7 @@ description: >-
   address, role, and last seen date for each member in your GitBook
   organization.
 tags:
-  - tag: python
-    primary: true
+  - python
   - gitbook
 ---
 
